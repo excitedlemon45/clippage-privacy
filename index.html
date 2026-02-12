@@ -12,6 +12,13 @@
             margin: 0 auto;
             padding: 20px;
             color: #333;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         h1 {
             color: #2c3e50;
@@ -27,69 +34,115 @@
             font-style: italic;
         }
         .highlight {
-            background-color: #ecf0f1;
+            background-color: #e8f4f8;
             padding: 15px;
             border-left: 4px solid #3498db;
             margin: 20px 0;
         }
+        ul {
+            line-height: 1.8;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #7f8c8d;
+        }
     </style>
 </head>
 <body>
-    <h1>ClipPage Pro Privacy Policy</h1>
-    <p class="last-updated">Last Updated: February 14, 2026</p>
+    <div class="container">
+        <h1>ClipPage Pro Privacy Policy</h1>
+        <p class="last-updated">Last Updated: February 14, 2026</p>
 
-    <div class="highlight">
-        <strong>TL;DR:</strong> ClipPage Pro does NOT collect any data. Everything stays on your device. Your privacy is 100% protected.
+        <div class="highlight">
+            <strong>TL;DR:</strong> ClipPage Pro does NOT collect any data. Everything stays on your device. Your privacy is 100% protected. Completely free forever.
+        </div>
+
+        <h2>Overview</h2>
+        <p>ClipPage Pro is committed to protecting your privacy. This Chrome extension does not collect, store, or transmit any personal data whatsoever. All features are completely free with no limitations.</p>
+
+        <h2>Data Collection</h2>
+        <p><strong>ClipPage Pro does NOT collect:</strong></p>
+        <ul>
+            <li>Browsing history</li>
+            <li>Personal information</li>
+            <li>Screenshot content or copied text</li>
+            <li>Usage analytics or statistics</li>
+            <li>Cookies or tracking data</li>
+            <li>Any information about you or your activities</li>
+        </ul>
+
+        <h2>How ClipPage Pro Works</h2>
+        <p>All screenshot processing and text extraction happens locally on your device:</p>
+        <ul>
+            <li>Screenshots are generated on your computer</li>
+            <li>Text recognition (OCR) is processed locally</li>
+            <li>Files are saved directly to your Downloads folder</li>
+            <li>Copied text goes to your clipboard only</li>
+            <li>Nothing is uploaded to any server</li>
+            <li>Nothing is transmitted over the internet</li>
+            <li>Your data never leaves your device</li>
+        </ul>
+
+        <h2>Permissions Explained</h2>
+        <p>ClipPage Pro requests the following permissions to function:</p>
+        <ul>
+            <li><strong>activeTab:</strong> To capture the current webpage you're viewing</li>
+            <li><strong>scripting:</strong> To inject screenshot capture and text extraction code into webpages</li>
+            <li><strong>downloads:</strong> To save screenshots to your Downloads folder</li>
+            <li><strong>storage:</strong> To save your preferences (like default capture mode, delay settings) locally on your device</li>
+            <li><strong>clipboardWrite:</strong> To copy extracted text to your clipboard</li>
+        </ul>
+        <p>These permissions are used ONLY for the core functionality of taking screenshots and extracting text. No data is collected or transmitted.</p>
+
+        <h2>Third-Party Services</h2>
+        <p>ClipPage Pro does not use:</p>
+        <ul>
+            <li>Analytics services (no Google Analytics, no tracking)</li>
+            <li>Advertising networks</li>
+            <li>Data collection tools</li>
+            <li>External servers or APIs</li>
+            <li>Cloud storage services</li>
+        </ul>
+
+        <h2>Free Forever</h2>
+        <p>ClipPage Pro is completely free to use with no limitations:</p>
+        <ul>
+            <li>No subscription fees</li>
+            <li>No premium tiers</li>
+            <li>No usage limits</li>
+            <li>No watermarks</li>
+            <li>All features unlocked for everyone</li>
+        </ul>
+        <p>If you'd like to support the development of ClipPage Pro, you can buy us a coffee on <a href="https://ko-fi.com/clippagepro" target="_blank">Ko-fi</a>. Donations are completely optional and do not unlock any additional features.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>ClipPage Pro does not collect any data from anyone, including children under 13. The extension is safe for users of all ages.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date. Your continued use of ClipPage Pro after any changes indicates your acceptance of the updated policy.</p>
+
+        <h2>Open Source Transparency</h2>
+        <p>ClipPage Pro's code can be reviewed for transparency. We encourage security researchers to examine our extension to verify our privacy claims.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions or concerns about this privacy policy, please contact us:</p>
+        <p><strong>Email:</strong> support@clippagepro.com</p>
+        <p><strong>Support:</strong> <a href="https://ko-fi.com/clippagepro" target="_blank">Ko-fi.com/clippagepro</a></p>
+
+        <div class="footer">
+            <p>© 2026 ClipPage Pro. All rights reserved.</p>
+            <p><a href="https://chrome.google.com/webstore" target="_blank">Download ClipPage Pro on Chrome Web Store</a></p>
+        </div>
     </div>
-
-    <h2>Overview</h2>
-    <p>ClipPage Pro is committed to protecting your privacy. This Chrome extension does not collect, store, or transmit any personal data whatsoever.</p>
-
-    <h2>Data Collection</h2>
-    <p><strong>ClipPage Pro does NOT collect:</strong></p>
-    <ul>
-        <li>Browsing history</li>
-        <li>Personal information</li>
-        <li>Screenshot content</li>
-        <li>Usage analytics or statistics</li>
-        <li>Cookies or tracking data</li>
-        <li>Any information about you or your activities</li>
-    </ul>
-
-    <h2>How ClipPage Pro Works</h2>
-    <p>All screenshot processing happens locally on your device:</p>
-    <ul>
-        <li>Screenshots are generated on your computer</li>
-        <li>Files are saved directly to your Downloads folder</li>
-        <li>Nothing is uploaded to any server</li>
-        <li>Nothing is transmitted over the internet</li>
-        <li>Your data never leaves your device</li>
-    </ul>
-
-    <h2>Permissions Explained</h2>
-    <p>ClipPage Pro requests the following permissions to function:</p>
-    <ul>
-        <li><strong>activeTab:</strong> To capture the current webpage you're viewing</li>
-        <li><strong>scripting:</strong> To inject screenshot capture code into webpages</li>
-        <li><strong>downloads:</strong> To save screenshots to your Downloads folder</li>
-        <li><strong>storage:</strong> To save your preferences (like default capture mode) locally on your device</li>
-    </ul>
-    <p>These permissions are used ONLY for the core functionality of taking screenshots. No data is collected or transmitted.</p>
-
-    <h2>Third-Party Services</h2>
-    <p>ClipPage Pro does not use:</p>
-    <ul>
-        <li>Analytics services (no Google Analytics, no tracking)</li>
-        <li>Advertising networks</li>
-        <li>Data collection tools</li>
-        <li>External servers or APIs</li>
-    </ul>
-
-    <h2>Payment Processing (Pro Version)</h2>
-        <p>If you choose to upgrade to ClipPage Pro Premium, payment processing is handled securely by Stripe. We do not store or have access to your payment information. Please see <a href="https://stripe.com/privacy" target="_blank">Stripe's Privacy Policy</a> for details on how they handle payment data.</p>
-
-    <h2>Children's Privacy</h2>
-    <p>ClipPage Pro does not collect any data from anyone, including children under 13. The extension is safe for users of all ages.</p>
-
-    <h2>Changes to This Policy</h2>
-    <p>We may update this privacy policy from time to time. A
+</body>
+</html>
